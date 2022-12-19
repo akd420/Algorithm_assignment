@@ -7,7 +7,7 @@ int main(){
     int array[n];
     for(int i = 0; i < n;i++){
         x =i;
-        cout <<"Insert element " << x << ":";
+        cout <<"Insert element " << x << " : ";
         cin >> array[i];
     }
     for(int i = 1; i < n;i++){
@@ -20,7 +20,7 @@ int main(){
         array[j+1]=temp;
         
     }
-    cout <<"Sorted elements :";
+    cout <<"Sorted elements : ";
     for (int i = 0; i < n; i++){
         cout << array[i] << " ";
     }
